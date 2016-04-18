@@ -1,0 +1,19 @@
+{
+  "name": "nocker-restifier",
+  "version": "1.0.1",
+  "description": "Fully restifier calls for nocker.",
+  "main": "lib/",
+  "scripts": {
+    "dev": "tsc -w",
+    "test": "node test/test.js"
+  },
+  "author": "Daniel Biedma",
+  "license": "MIT",
+  "typescript": {
+    "definition": "dist/nocker-restifier.d.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^1.8.2"
+  }
+}
